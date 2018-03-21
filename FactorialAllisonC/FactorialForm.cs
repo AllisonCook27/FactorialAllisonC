@@ -61,7 +61,7 @@ namespace FactorialAllisonC
                     //multiply the counter by the answer
                     factorialAnswer = factorialAnswer * Counter;
 
-                } while (factorialNumber <= Counter);
+                } while (Counter < factorialNumber);
 
                 //convert answer to string
                 lblanswer.Text = txtUserNumber.Text + "! = " + Convert.ToString(factorialAnswer);
